@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Summary Extension</title>
+    <style>
+      body {
+        width: 300px;
+        padding: 10px;
+      }
+      button {
+        margin: 5px 0;
+        width: 100%;
+      }
+      #summary {
+        margin-top: 10px;
+        padding: 5px;
+        border: 1px solid #ccc;
+        min-height: 50px;
+        font-size: 14px;
+        color: #333;
+        white-space: pre-wrap;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Summarize Page</h3>
+    <button id="short">Short Summary</button>
+    <button id="medium">Medium Summary</button>
+    <button id="long">Long Summary</button>
+    <div id="summary">Summary will appear here...</div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
