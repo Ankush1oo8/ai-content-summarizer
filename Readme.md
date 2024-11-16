@@ -210,7 +210,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ### **Screenshots**
 
 - **Popup Interface**  
-  (Insert an image of the popup interface here for visual clarity.)
+  ![Interface](image.png)
 
 ---
 
